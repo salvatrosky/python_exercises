@@ -13,7 +13,7 @@ This exercise generates a traffic report per IP address based on a log file. The
 - The input file does not have headers, so the analysis starts from the first line.
 - According to RFC 2616, status `OK` is only `200`, although in practice, any `2xx` status could indicate a successful request.
 - The file does not contain empty lines, and all fields are present in every line.
-- The output file must be named `/logfiles/requests.log`. However, in the case of JSON format, the extension was changed for clarity.
+- The output file must be named `/reports/ipaddr.csv`. However, in the case of JSON format, the extension was changed for clarity.
 - All provided directories (e.g., `logfiles/` and `reports/`) are assumed to be relative to the project root directory, not the root of the computer's file system.
 
 ### **Features**
